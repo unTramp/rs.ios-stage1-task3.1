@@ -2,22 +2,22 @@
 
 @interface ViewController : UIViewController<UITextFieldDelegate>
 
-@property (retain, nonatomic) UILabel *labelResultColor;
-@property (retain, nonatomic) UILabel *labelRed;
-@property (retain, nonatomic) UILabel *labelGreen;
-@property (retain, nonatomic) UILabel *labelBlue;
+@property (weak, nonatomic) UILabel *labelResultColor;
+@property (weak, nonatomic) UILabel *labelRed;
+@property (weak, nonatomic) UILabel *labelGreen;
+@property (weak, nonatomic) UILabel *labelBlue;
 
-@property (retain, nonatomic) UIView *viewResultColor;
-@property (retain, nonatomic) UITextField *textFieldRed;
-@property (retain, nonatomic) UITextField *textFieldGreen;
-@property (retain, nonatomic) UITextField *textFieldBlue;
+@property (weak, nonatomic) UIView *viewResultColor;
+@property (weak, nonatomic) UITextField *textFieldRed;
+@property (weak, nonatomic) UITextField *textFieldGreen;
+@property (weak, nonatomic) UITextField *textFieldBlue;
 
-@property (retain, nonatomic) UIButton *buttonProcess;
+@property (weak, nonatomic) UIButton *buttonProcess;
 
 
-@property (nonatomic, strong) UIButton *leftButton;
-@property (nonatomic, strong) UIButton *rightButton;
-@property (nonatomic, strong) UITextField *textfield;
+@property (weak, nonatomic) UIButton *leftButton;
+@property (weak, nonatomic) UIButton *rightButton;
+@property (weak, nonatomic) UITextField *textfield;
 
 @end
 
